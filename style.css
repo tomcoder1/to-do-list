@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.grid-template {
+    display: grid;
+    grid-template-columns: 200px 200px 100px;
+    column-gap: 20px;
+    row-gap: 40px;
+    margin-bottom: 20px;
+}
+
+.add-button {
+    width: 50px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.div-delete-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-button {
+    width: 50px;
+    margin-left: 25px;
+    cursor: pointer;
+}

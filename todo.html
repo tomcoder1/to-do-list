@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>To-do list</h1>
+        
+        <div class="grid-template">
+            <input class="add-work" placeholder="Type your work" onkeydown="handleEnter(event)">
+            <input class="add-due-date" type="date">
+            <button class="add-button" onclick="process()">
+                Enter
+            </button>
+        </div>
+
+        <div class="grid-template task-list"></div>
+        
+        <script src="todo.js"></script>
+    </body>
+</html>
